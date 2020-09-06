@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Login successfully executed]]>
+    </line>
+  </reporter-output>
+  <suite name="Data Driven Basics" duration-ms="1239" started-at="2020-08-04T13:54:21Z" finished-at="2020-08-04T13:54:23Z">
+    <groups>
+    </groups>
+    <test name="BankManagerLoginTest" duration-ms="365" started-at="2020-08-04T13:54:21Z" finished-at="2020-08-04T13:54:22Z">
+      <class name="purushartha.testcases.BankManagerLoginTest">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:purushartha.testcases.BankManagerLoginTest@909217e]" name="loginAsBankManager" duration-ms="337" started-at="2020-08-04T15:54:21Z" finished-at="2020-08-04T15:54:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- purushartha.testcases.BankManagerLoginTest -->
+    </test> <!-- BankManagerLoginTest -->
+    <test name="Add Customer Test" duration-ms="844" started-at="2020-08-04T13:54:22Z" finished-at="2020-08-04T13:54:23Z">
+      <class name="purushartha.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:purushartha.testcases.AddCustomerTest@6e9a5ed8]" name="setUp" is-config="true" duration-ms="7511" started-at="2020-08-04T15:54:14Z" finished-at="2020-08-04T15:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:purushartha.testcases.AddCustomerTest@6e9a5ed8]" name="addCustomer" duration-ms="821" started-at="2020-08-04T15:54:22Z" data-provider="getData" finished-at="2020-08-04T15:54:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arora]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A234wd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:purushartha.testcases.AddCustomerTest@6e9a5ed8]" name="tearDown" is-config="true" duration-ms="717" started-at="2020-08-04T15:54:23Z" finished-at="2020-08-04T15:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- purushartha.testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>

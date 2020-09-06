@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add Customer Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="18,004">
+  <properties />
+  
+  
+            <testcase name="addCustomerTest" time="4,371" classname="purushartha.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="4,413" classname="purushartha.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="4,377" classname="purushartha.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="4,843" classname="purushartha.testcases.AddCustomerTest" />
+      
+</testsuite>
